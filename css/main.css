@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  max-height: 150px;
+  border-bottom: 5px solid black; }
+  .header .myNavBar ul {
+    list-style-type: none;
+    height: 100px;
+    overflow: hidden; }
+    .header .myNavBar ul li {
+      font-size: 23px;
+      font-weight: 400;
+      text-align: center; }
+      .header .myNavBar ul li.search .keyword input {
+        border-radius: 20px;
+        outline: none;
+        border: 2px solid #cecdcd;
+        padding: 7px 12px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0; }
+      .header .myNavBar ul li.search .iconSearch {
+        padding: 7px 20px;
+        border: 2px solid #cecdcd;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-left: none;
+        background-color: #e64848;
+        transition: all 0.4s;
+        cursor: pointer; }
+        .header .myNavBar ul li.search .iconSearch:hover {
+          background-color: tomato; }
+        .header .myNavBar ul li.search .iconSearch i {
+          color: white;
+          font-size: 28px; }
+
+.Carousel {
+  width: 1000px; }
+  .Carousel .item img {
+    height: 500px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+.header{
+    max-height: 150px;
+    border-bottom: 5px solid black;
+    .myNavBar{
+        ul{
+            list-style-type: none;
+            height: 100px;
+            overflow: hidden;
+            li{
+                font-size: 23px;
+                font-weight: 400;
+                text-align: center;
+                &.search{
+                    .keyword{
+                        input{
+                            border-radius: 20px;
+                            outline: none;
+                            border: 2px solid rgb(206, 205, 205);
+                            padding: 7px 12px;
+                            border-top-right-radius: 0;
+                            border-bottom-right-radius: 0;
+                        }
+                    }
+                    .iconSearch{
+                        padding: 7px 20px;
+                        border: 2px solid rgb(206, 205, 205);
+                        border-top-right-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        border-left: none;
+                        background-color: rgb(230, 72, 72);
+                        transition: all 0.4s;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: tomato;
+                        }
+                        i{
+                            color: white;
+                            font-size: 28px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+.Carousel{
+    width: 1000px;
+    .item{
+        img{
+            height: 500px;
+        }
+    }
+}
